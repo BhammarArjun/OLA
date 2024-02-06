@@ -121,9 +121,11 @@ def get_prediction(tot):
     
     return out
 
+col1, col2 = st.columns(2)
+
 if st.button("Predict"):
     ans = get_prediction(tot)
-    st.title(ans)
-
+    st.title(f"Prediction is -- '{ans}'")
+    st.plotly_chart(chart,theme="streamlit", use_container_width=True)
 
 
