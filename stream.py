@@ -41,4 +41,5 @@ with st.sidebar:
 
 with st.sidebar:
     st.link_button("LinkedIn", "https://www.linkedin.com/in/arjun-bhammar-27a351226/")
-    
+
+scientist
